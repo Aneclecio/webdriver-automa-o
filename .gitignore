@@ -1,0 +1,63 @@
+# Java
+*.class
+*.log
+hs_err_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+# Excluir arquivos de saída de testes (geralmente ficam em target/)
+
+# Gradle (caso futuro)
+.gradle/
+build/
+
+# IDEs
+# IntelliJ
+.idea/
+*.iml
+out/
+# Eclipse
+.project
+.classpath
+.settings/
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários do SO/editor
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Relatórios e caches
+surefire-reports/
+failsafe-reports/
+
+# Selenium/WebDriver downloads (se aplicável)
+downloads/
+
+# Arquivos gerados
+bin/
+
+# Logs e temporários adicionais
+*.tmp
+*.bak
+
+# Ignorar arquivos de cobertura (se usados)
+coverage/
+*.exec
+
+# Ignorar importações locais
+local.properties
